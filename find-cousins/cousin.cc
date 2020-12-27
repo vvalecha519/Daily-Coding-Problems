@@ -9,8 +9,6 @@ struct node
     int value;
     node *left;
     node *right;
-
-    //need destructor to prevent memory leak
 };
 
 void determineCousins(node *tree, node *n);
